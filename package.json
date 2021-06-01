@@ -1,0 +1,47 @@
+{
+  "name": "iron-session",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Session library using iron tokens from the hapi ecosystem",
+  "author": {
+    "name": "Christopher Bonhage",
+    "email": "me@christopherbonhage.com",
+    "url": "https://christopherbonhage.com"
+  },
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/meeq/iron-session#readme",
+  "bugs": {
+    "url": "https://github.com/meeq/iron-session/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/meeq/iron-session.git"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "rm -Rf lib",
+    "lint:types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@hapi/iron": "^6.0.0",
+    "clone": "^2.1.2",
+    "cookie": "^0.4.1"
+  },
+  "devDependencies": {
+    "@types/clone": "^2.1.0",
+    "@types/cookie": "^0.4.0",
+    "@types/node": "^14.17.1",
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "prettier": "^2.3.0",
+    "typescript": "4.2.4"
+  }
+}
