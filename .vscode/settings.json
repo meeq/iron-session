@@ -28,5 +28,5 @@
     "yarn.lock": true,
     "**/.yarn": true,
     "**/.pnp.*": true
-  },
+  }
 }
