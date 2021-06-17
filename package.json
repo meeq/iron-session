@@ -22,7 +22,9 @@
   "scripts": {
     "build": "tsc --build",
     "clean": "rm -Rf lib",
-    "lint-types": "tsc --noEmit"
+    "lint": "yarn lint-es && yarn lint-ts",
+    "lint-es": "eslint --ext .js,.ts",
+    "lint-ts": "tsc --noEmit"
   },
   "dependencies": {
     "@hapi/iron": "^6.0.0",
